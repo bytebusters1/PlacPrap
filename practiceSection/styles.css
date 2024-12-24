@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Container for the practice section */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section title */
+.section-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* List of languages */
+.language-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.language-item {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 10px 0;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.language-item:hover {
+    background-color: #e0e0e0;
+}
+
+/* Tooltip for major topics */
+.tooltip {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 110%;
+    transform: translateY(-50%);
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    white-space: nowrap;
+}
+
+.language-item:hover .tooltip {
+    display: block;
+}
+
+/* Tooltip list */
+.tooltip ul {
+    list-style: disc;
+    margin: 0;
+    padding-left: 15px;
+}
+
+.tooltip li {
+    font-size: 0.9rem;
+    margin: 5px 0;
+}
+

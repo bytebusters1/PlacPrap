@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placement Preparation</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>TechPrepHub</h1>
+        </div>
+        <ul id="menuList">
+          <li><a href="python.html">Python</a></li>
+          <li><a href="javascript.html">Javascript</a></li>
+          <li><a href="Sql.html">Sql</a></li>
+          <li><a href="java.html">Java</a></li>
+          <li><a href="cplus.html">C ++</a></li>
+        </ul>
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
+    </nav>
+    <style>
+        nav {
+            transition: background-color 0.3s ease;
+        }
+        nav:hover {
+            background-color: #1666fa;
+        }
+        nav ul li a {
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #6fb5ff;
+            transform: scale(1.1);
+        }
+    </style>
+
+    <div class="container">
+        <div class="intro-box">
+            <h2>Learn Programming Languages</h2>
+            <div class="language-intro">
+                <h3>Python</h3>
+                <p>Python is an easy-to-learn, powerful programming language. It is widely used in various fields, including web development, data science, artificial intelligence, and more.</p>
+                <a href="python.html"><button class="quiz-btn">Take Quiz</button></a>
+            </div>
+
+            <div class="language-intro">
+                <h3>JavaScript</h3>
+                <p>JavaScript is the programming language of the web. It's used to create interactive effects within web browsers.</p>
+                <a href="javascript.html"><button class="quiz-btn">Take Quiz</button></a>
+            </div>
+
+            <div class="language-intro">
+                <h3>Java</h3>
+                <p>Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.</p>
+                <a href="java.html"><button class="quiz-btn">Take Quiz</button></a>
+            </div>
+                <div class="language-intro">
+                    <h3>Html</h3>
+                    <p>HTML (HyperText Markup Language): HTML is the backbone of web pages, providing the structure and layout by defining elements like headings, paragraphs, images, and links. It is essential for creating the foundation of any website.</p>
+                    <a href="ht.html"><button class="quiz-btn">Take Quiz</button></a>
+                </div>
+                    <div class="language-intro">
+                        <h3>Css</h3>
+                        <p>CSS (Cascading Style Sheets): CSS is used to style and format the content defined by HTML, including layout, colors, fonts, and responsiveness. It enhances the visual appeal and usability of web pages.</p>
+                        <a href="cascading.html"><button class="quiz-btn">Take Quiz</button></a>
+                    </div>
+                        <div class="language-intro">
+                            <h3>C</h3>
+                            <p>C: Designed for system-level programming, C is used to build operating systems, embedded systems, and hardware interfaces. It provides low-level access to memory and high performance.</p>
+                            <a href="c.html"><button class="quiz-btn">Take Quiz</button></a>
+                            <div class="language-intro">
+                                <h3>c++</h3>
+                                <p> C++ is a general-purpose language offering object-oriented, procedural, and generic programming, ideal for game engines, desktop applications, and high-performance software.</p>
+                                <a href="cplus.html"><button class="quiz-btn">Take Quiz</button></a>
+                            </div>
+                            <div class="language-intro">
+                                <h3>Sql</h3>
+                                <p> SQL is a specialized language for managing, querying, and analyzing data in relational databases, integral to backend systems and analytics.</p>
+                                <a href="sql.html"><button class="quiz-btn">Take Quiz</button></a>
+                            </div>
+        </div>
+    </div>
+
+
+    <script>
+        let menuList = document.getElementById("menuList")
+        menuList.style.maxHeight = "0px";
+
+        function toggleMenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "300px";
+            }
+            else{
+                menuList.style.maxHeight = "0px";
+            }
+        }
+        
+    </script>
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+</body>
+</html>

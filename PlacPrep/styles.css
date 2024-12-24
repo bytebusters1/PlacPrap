@@ -1,0 +1,111 @@
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0ff;
+}
+
+
+/* Navigation Styles */
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav .nav-button {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav .nav-button i {
+    margin-right: 0.5rem;
+}
+
+.nav-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: scale(1.05);
+}
+
+.nav-button.active {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+/* Section Styles */
+section {
+    padding: 2rem 1rem;
+}
+
+/* Feature Cards */
+.feature-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+}
+
+.feature-card h2 {
+    font-size: 1.5rem;
+}
+
+.feature-card p {
+    font-size: 1rem;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Company Card Hover Effect */
+.company-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.company-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Carousel Styles */
+.carousel {
+    border-radius: 15px;
+    width: 100%;
+    height: 75vh;
+    overflow: hidden;
+}
+
+.carousel img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Footer Styles */
+footer {
+    background: #1f2937;
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+    .feature-card h2 {
+        font-size: 2rem;
+    }
+
+    .feature-card p {
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .feature-card h2 {
+        font-size: 2.5rem;
+    }
+}
