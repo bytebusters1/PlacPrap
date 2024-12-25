@@ -29,55 +29,55 @@ const companies = [
         name: "Google",
         description: "Leading technology company known for search engine and innovative products.",
         requiredSkills: ["JavaScript", "Python", "Java", "Algorithms", "System Design"],
-        icon: "bi-google"
+        
     },
     {
         name: "Microsoft",
         description: "Global technology corporation focusing on software and cloud solutions.",
         requiredSkills: ["C#", "JavaScript", "Azure", "SQL", "System Design"],
-        icon: "bi-microsoft"
+        
     },
     {
         name: "Amazon",
         description: "E-commerce and cloud computing leader with diverse tech roles.",
         requiredSkills: ["Java", "Python", "AWS", "Distributed Systems", "Algorithms"],
-        icon: "bi-amazon"
+        
     },
     {
         name: "TCS (Tata Consultancy Services)",
         description: "One of the largest IT services companies in the world, providing a wide range of IT services.",
         requiredSkills: ["Java", "C#", "Python", "SQL", "System Design"],
-        icon: "bi-tcs"
+        
     },
     {
         name: "Accenture",
         description: "Global professional services company providing a broad range of services in strategy and consulting, technology and operations.",
         requiredSkills: ["Java", "Python", "SQL", "System Design", "Project Management"],
-        icon: "bi-accenture"
+        
     },
     {
         name: "Infosys",
         description: "Global leader in next-generation digital services and consulting.",
         requiredSkills: ["Java", "Python", "SQL", "System Design", "AI"],
-        icon: "bi-infosys"
+        
     },
     {
         name: "IBM",
         description: "Global technology and consulting company known for its innovations in AI, cloud computing, and quantum computing.",
         requiredSkills: ["Java", "Python", "SQL", "System Design", "AI"],
-        icon: "bi-ibm"
+        
     },
     {
         name: "Oracle",
         description: "Leading provider of database management systems and enterprise software.",
         requiredSkills: ["Java", "SQL", "Python", "System Design", "Cloud Computing"],
-        icon: "bi-oracle"
+        
     },
     {
         name: "SAP",
         description: "Leading provider of enterprise resource planning (ERP) software and related services.",
         requiredSkills: ["Java", "SQL", "Python", "System Design", "ERP"],
-        icon: "bi-sap"
+        
     }
 ];
 
